@@ -32,6 +32,7 @@ if __name__ == "__main__":
     print("Size  is {}".format(b.size))    
     print("Model is {}".format(b.model))    
     print("Price is {}".format(b.price))    
+    print("Msg is   {}".format(b.msg))    
     print("Type  is {}".format(b.bike_type(b.size)))    
     if args.women:
         print("It is also a women bike")
