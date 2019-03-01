@@ -20,7 +20,7 @@ class Bike():
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(""" Generic Log Watcher """)
+    parser = argparse.ArgumentParser(""" Bike Demo """)
     parser.add_argument("-s", "--size", type=int, help="Bike size")
     parser.add_argument("-m", "--model", type=str, help="Bike model")
     parser.add_argument("-p", "--price", type=int, help="Bike price")
